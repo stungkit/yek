@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.25.3] - 2026-06-02
+[0.25.3]: https://github.com/mohsen1/yek/compare/v0.25.2...v0.25.3
+### Bug Fixes
+
+- Respect YAML boolean config flags such as `line_numbers`, `tree_header`, `tree_only`, `debug`, and `json`
+
+### Features
+
+- Add Homebrew formula
+
+### Miscellaneous Tasks
+
+- Enhance Dependabot config with grouping and labels
+
+### Build
+
+- Bump clap-config-file from 0.5.0 to 0.6.0 
+- Bump serde from 1.0.226 to 1.0.228 
+- Bump regex from 1.11.2 to 1.12.2 
+- Bump ignore from 0.4.23 to 0.4.25 
+- Bump clap from 4.5.47 to 4.5.53 
+
+## [0.25.2] - 2025-10-17
+[0.25.2]: https://github.com/mohsen1/yek/compare/v0.25.0...v0.25.2
+### Release
+
+- V0.25.2
+
 ## [0.25.0] - 2025-09-25
 [0.25.0]: https://github.com/mohsen1/yek/compare/v0.24.0...v0.25.0
 ### Release
@@ -833,3 +861,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Apply cargo fmt suggestions
 
+## [0.1.0] - 2025-01-12
